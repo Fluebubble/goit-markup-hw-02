@@ -1,0 +1,80 @@
+header {
+    background-color: #fff;    
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto';
+}
+/* Стили логотипа */
+.logo {
+    font-family: 'Raleway';
+    color: #000;
+}
+.logo-bottom {
+    font-family: 'Raleway';
+    color: rgb(255, 255, 255);
+}
+.logo-part {
+    color: #2196F3;
+}
+/* Стили меню */
+.menu {
+    color: black;
+}
+.menu a {
+    color: #212121;
+}
+.menu-item-link:hover {
+    color: #2196F3;
+}
+/* Стили контактов в хеде */
+.contact-top {
+    color: #757575;
+}
+/* Секция 1 Cover */
+.cover {
+    background-color: #2F303A;
+}
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-button {
+    color: #fff;
+    background-color: #2196F3;
+    font-family: 'Roboto';
+}
+/* Секция 2 Преимущества */
+.benefits {
+    color: #757575;
+}
+.benefits-title {
+    color: #212121;
+}
+/* Секция 3 Чем мы занимаемся */
+.what-we-do {
+    color: #212121;
+}
+/* Секция 4 Наша команда */
+.our-team {
+    color: #212121;
+}
+.profession {
+    color: #757575;
+}
+/* Футер */
+.footer {
+    background-color: #2F303A;
+}
+.contact-bottom.map {
+    color: rgb(255, 255, 255);
+}
+.contact-bottom {
+    /* text-decoration: none; */
+    font-family: 'Roboto';
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+}
