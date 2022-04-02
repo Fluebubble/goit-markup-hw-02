@@ -1,80 +1,151 @@
-header {
-    background-color: #fff;    
-}
-a {
-    text-decoration: none;
+:root {
+    --hover-blue-color: #2196F3;
+    --gray-color: #757575;
+    --white-color: #ffffff;
+    --cover-background: #2F303A;
+    --black-color: #000;
+    --link-color: #212121;
+    --contact-bottom-color: rgba(255, 255, 255, 0.6);
 }
 body {
     font-family: 'Roboto';
 }
+.header { 
+    background-color: var(--white-color);    
+}
+a {
+    text-decoration: none;
+}
 /* Стили логотипа */
 .logo {
     font-family: 'Raleway';
-    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    color: var(--black-color);
 }
-.logo-bottom {
-    font-family: 'Raleway';
-    color: rgb(255, 255, 255);
+.logo.logo-bottom {
+    color: var(--white-color);
 }
 .logo-part {
-    color: #2196F3;
+    color: var(--hover-blue-color);
 }
 /* Стили меню */
 .menu {
-    color: black;
+    color: var(--black-color);
+    font-size: 14px;
+    font-weight: 500;
 }
 .menu a {
-    color: #212121;
+    color: var(--link-color);
+}
+.menu-item-link.selected-link {
+    color: var(--hover-blue-color);
 }
 .menu-item-link:hover {
-    color: #2196F3;
+    color: var(--hover-blue-color);
+}
+.menu-item-link:focus {
+    color: var(--hover-blue-color);
 }
 /* Стили контактов в хеде */
 .contact-top {
-    color: #757575;
+    color: var(--gray-color);
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact-top:hover {
+    color: var(--hover-blue-color);
+}
+.contact-top:focus {
+    color: var(--hover-blue-color);
 }
 /* Секция 1 Cover */
 .cover {
-    background-color: #2F303A;
+    background-color: var(--cover-background);
 }
 .title {
-    color: #fff;
+    color: var(--white-color);
     text-transform: uppercase;
     text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
 }
 .main-button {
-    color: #fff;
-    background-color: #2196F3;
+    color: var(--white-color);
+    background-color: var(--hover-blue-color);
     font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    cursor: pointer;
 }
 /* Секция 2 Преимущества */
 .benefits {
-    color: #757575;
+    color: var(--gray-color);
+    font-size: 14px;
+    line-height: 1.71;
 }
 .benefits-title {
-    color: #212121;
+    color: var(--link-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
 }
-/* Секция 3 Чем мы занимаемся */
-.what-we-do {
-    color: #212121;
+/* Секция 3 Чем мы занимаемся 4 Наша команда */
+.second-title {
+    color: var(--link-color);
+    font-size: 36px;
+    font-weight: 700;
 }
-/* Секция 4 Наша команда */
-.our-team {
-    color: #212121;
+.employee-name {
+    color: var(--link-color);
+    font-size: 16px;
+    font-weight: 500;
 }
-.profession {
-    color: #757575;
+.employee-profession {
+    color: var(--gray-color);
+    font-size: 16px;
 }
 /* Футер */
 .footer {
-    background-color: #2F303A;
-}
-.contact-bottom.map {
-    color: rgb(255, 255, 255);
+    background-color: var(--cover-background);
 }
 .contact-bottom {
-    /* text-decoration: none; */
-    font-family: 'Roboto';
+    color: var(--contact-bottom-color);
+    font-size: 14px;
+    line-height: 1.71;
     font-style: normal;
-    color: rgba(255, 255, 255, 0.6);
+}
+.contact-bottom.map {
+    color: var(--white-color);
+}
+/* Страница Portforlio */
+.portfolio button {
+    background-color: #F5F4FA;
+    color: var(--link-color);
+    cursor: pointer;
+    font-family: 'Roboto', normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.62;
+}
+.portfolio button:hover {
+    background-color: var(--hover-blue-color);
+    color: var(--white-color);
+}
+.portfolio button:focus {
+    background-color: var(--hover-blue-color);
+    color: var(--white-color);
+}
+.portfolio-name {
+    font-style: bold;
+    font-size: 18px;
+    line-height: 2;
+}
+.portfolio-type {
+    color: var(--gray-color);
+    font-size: 16px;
+    line-height: 1.87;
 }
