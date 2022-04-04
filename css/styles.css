@@ -1,3 +1,4 @@
+@import url(normalise.css);
 :root {
     --hover-blue-color: #2196F3;
     --gray-color: #757575;
@@ -9,12 +10,10 @@
 }
 body {
     font-family: 'Roboto';
+    letter-spacing: calc(1em / 33);
 }
 .header { 
     background-color: var(--white-color);    
-}
-a {
-    text-decoration: none;
 }
 /* Стили логотипа */
 .logo {
@@ -38,6 +37,7 @@ a {
 }
 .menu a {
     color: var(--link-color);
+    letter-spacing: calc(1em / 50);
 }
 .menu-item-link.selected-link {
     color: var(--hover-blue-color);
@@ -53,6 +53,7 @@ a {
     color: var(--gray-color);
     font-size: 14px;
     font-weight: 500;
+    letter-spacing: calc(1em / 50);
 }
 .contact-top:hover {
     color: var(--hover-blue-color);
@@ -71,6 +72,7 @@ a {
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
+    letter-spacing: calc(1em / 16.6666);
 }
 .main-button {
     color: var(--white-color);
@@ -80,33 +82,39 @@ a {
     font-weight: 700;
     line-height: 1.87;
     cursor: pointer;
+    letter-spacing: calc(1em / 16.6666);
 }
 /* Секция 2 Преимущества */
 .benefits {
     color: var(--gray-color);
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: calc(1em / 33);
 }
 .benefits-title {
     color: var(--link-color);
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
+    letter-spacing: calc(1em / 33);
 }
 /* Секция 3 Чем мы занимаемся 4 Наша команда */
 .second-title {
     color: var(--link-color);
     font-size: 36px;
     font-weight: 700;
+    letter-spacing: calc(1em / 33);
 }
 .employee-name {
     color: var(--link-color);
     font-size: 16px;
     font-weight: 500;
+    letter-spacing: calc(1em / 33);
 }
 .employee-profession {
     color: var(--gray-color);
     font-size: 16px;
+    letter-spacing: calc(1em / 33);
 }
 /* Футер */
 .footer {
@@ -117,6 +125,7 @@ a {
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
+    letter-spacing: calc(1em / 33);
 }
 .contact-bottom.map {
     color: var(--white-color);
@@ -129,7 +138,7 @@ a {
     font-family: 'Roboto', normal;
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.62;
+    line-height: 1.6250;
 }
 .portfolio button:hover {
     background-color: var(--hover-blue-color);
@@ -143,9 +152,11 @@ a {
     font-style: bold;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: calc(1em / 16.6666);
 }
 .portfolio-type {
     color: var(--gray-color);
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: calc(1em / 33);
 }
